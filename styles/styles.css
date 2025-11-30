@@ -1,12 +1,86 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #161414;
+  color: #6e6363;
+  margin: 0;
+  padding: 10px;
+  
+}
+
+
+.body-outline{
+  border: 2px solid #6e6363;
+  border-radius: 15px;
+  padding: 0px 30px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.header-spacing{
+  
+}
+
+.page-logo{
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.menu-link{
+  padding: 15px;
+  color: #6e6363;
+}
+
+hr.header-separator {
+  border-bottom: 2px solid #6e6363;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.profile{
+  display: flexbox;
+  width: 200px;
+}
+
 img.profile-img {
-  max-width: 20%;
-  height: auto;
+  /* Use percentage for responsiveness */
+  width: 40vw;                    
+  height: 40vw;                   
+  
+  /* Limit the maximum size so it doesn't get too huge on large screens */
+  max-width: 150px;
+  max-height: 150px;
+  
+  /* Keep minimum size so it never gets too tiny on small phones */
+  min-width: 50px;
+  min-height: 50px;
+  
+  object-fit: cover;              /* Crops the bunny nicely inside the circle */
+  border-radius: 50%;             /* Circular shape */
   cursor: pointer;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  transition: transform 0.2s;
+  border: 2px solid #6e6363;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s ease;
+  display: block;                 /* Important for centering later */
+  text-align: center;
 }
 
 img.profile-img:hover {
   transform: scale(1.05);
 }
+
+a.profile-img{
+  align-items: center;
+}
+
+h2{
+  font-size: 14px
+}
+
