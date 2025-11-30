@@ -1,0 +1,29 @@
+/* Reset default margins/paddings that break centering */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+.red-box{
+    background-color: red;
+    margin-left: 200px;
+}
+.blue-box{
+    background-color: blue;
+}
+.green-box{
+    margin-left: 200px;
+    background-color: green;
+}
+
+/* Style the paragraph – no extra margins! */
+.red-box p {
+    color: white;
+    text-align: center;     /* keeps text itself centered if it wraps */
+    padding: 15px 10px 0px 10px;          /* optional – gives the text some breathing room */
+}
