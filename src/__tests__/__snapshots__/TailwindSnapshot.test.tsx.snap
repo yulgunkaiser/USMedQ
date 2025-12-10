@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tailwind Button styles > renders primary button with classnames 1`] = `
+<button
+  class="px-4 py-2 rounded transition bg-brand text-white hover:bg-brand-dark "
+>
+  Click
+</button>
+`;
