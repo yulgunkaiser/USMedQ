@@ -1,0 +1,9 @@
+.topbanner {
+  text-align: center;
+  font: normal 13px 'alkatip basma tom', 'Microsoft Uighur', Tahoma, Helvetica, 'SimSun', sans-serif;
+  color: #6b6c6c;
+  margin: 0 auto 24px auto;
+  width: 100%;
+  max-width: 890px;
+  clear: both;
+}

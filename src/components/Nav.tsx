@@ -5,7 +5,7 @@ export default function Nav() {
     `px-3 py-2 rounded hover:text-blue-600 ${isActive ? 'text-blue-600 font-semibold' : 'text-gray-700'}`
 
   return (
-    <nav className="flex gap-4">
+    <nav id="navbelt" className="flex gap-4">
       <NavLink to="/" className={linkClass} end>
         Home
       </NavLink>

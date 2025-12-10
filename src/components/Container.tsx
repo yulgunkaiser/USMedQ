@@ -1,5 +1,7 @@
-type Props = React.HTMLAttributes<HTMLDivElement>
+import "./Container.css";
+
+type Props = React.HTMLAttributes<HTMLDivElement>;
 
 export default function Container({ className = '', ...props }: Props) {
-  return <div className={`container ${className}`} {...props} />
+  return <div className={`container ${className}`} {...props} />;
 }
