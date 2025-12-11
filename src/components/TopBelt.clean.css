@@ -1,0 +1,40 @@
+/* Clean TopBelt styles used to avoid corrupted legacy file */
+#topbelt {
+  direction: rtl;
+  font: 15px/1.5 'UKIJ tuz tom', 'Alpida Unicode System', 'Alkatip tor', 'Microsoft Uighur', Tahoma, Helvetica, 'SimSun', sans-serif;
+  color: #444;
+  word-break: keep-all;
+  padding: 0;
+  zoom: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 40px;
+  background: url(../../template/dz_img/toptb.png) no-repeat left center;
+  background-size: cover;
+}
+
+.eis_wp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.z, .y {
+  display: flex;
+  align-items: center;
+}
+
+.pipe, .eis_tpipe {
+  margin: 0 4px;
+  color: #888;
+}
+
+@media (max-width: 640px) {
+  #topbelt { font-size: 13px; }
+}

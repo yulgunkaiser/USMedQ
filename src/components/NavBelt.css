@@ -3,5 +3,5 @@
   gap: 1rem;
   justify-content: center;
   margin-bottom: 16px;
-  margin-top: 16px;
+  margin-top: calc(var(--topbelt-height) * 0.2);
 }
